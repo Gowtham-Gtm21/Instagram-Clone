@@ -1,0 +1,295 @@
+{
+  "profile": {
+    "id": 101,
+    "username": "thomas_selby",
+    "nickname": "thomas 😎",
+    "profile_pic": "/src/assets/images/profile.jpeg"
+  },
+  "postcards": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "lucas_captures",
+        "profile_pic": "/src/assets/images/dp1.jpeg"
+      },
+      "image": "/src/assets/images/post1.jpg",
+      "caption": "Enjoying the sunset 🌅",
+      "likes": 132,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing view 🔥"
+        },
+        {
+          "user": "adam_on_air",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "sarah_dreams",
+        "profile_pic": "/src/assets/images/dp2.jpeg"
+      },
+      "image": "/src/assets/images/post2.jpg",
+      "caption": "Starting the day with good nature ☃️❄️",
+      "likes": 114,
+      "comments": [
+        {
+          "user": "lucas_captures",
+          "comment": "I want to go to this place 🌿"
+        },
+        {
+          "user": "travel_with_max",
+          "comment": "Saved this for my next trip! 🌤️"
+        }
+      ],
+      "timestamp": "2025-02-12T08:00:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "travel_with_max",
+        "profile_pic": "/src/assets/images/dp3.jpeg"
+      },
+      "image": "/src/assets/images/post3.jpg",
+      "caption": "Adventure awaits 🏞️ #HikingLife",
+      "likes": 97,
+      "comments": [
+        {
+          "user": "sarah_dreams",
+          "comment": "Wow! Amazing view 🔥"
+        }
+      ],
+      "timestamp": "2025-02-10T17:45:00Z"
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": 104,
+        "username": "alice_wonder",
+        "profile_pic": "/src/assets/images/dp4.jpeg"
+      },
+      "image": "/src/assets/images/post4.jpg",
+      "caption": "Peace and pages 📖✨ #ReadingSpot",
+      "likes": 106,
+      "comments": [
+        {
+          "user": "emma_vlogs",
+          "comment": "So worth it 😍"
+        },
+        {
+          "user": "lucas_captures",
+          "comment": "Good spot to refresh the brain!"
+        }
+      ],
+      "timestamp": "2025-02-13T16:10:00Z"
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": 105,
+        "username": "adam_on_air",
+        "profile_pic": "/src/assets/images/dp5.jpeg"
+      },
+      "image": "/src/assets/images/post5.jpg",
+      "caption": "Took a coding break for this view 💻🌄",
+      "likes": 94,
+      "comments": [
+        {
+          "user": "lucas_captures",
+          "comment": "That sky is magical ☁️✨"
+        }
+      ],
+      "timestamp": "2025-02-14T11:20:00Z"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "lucas",
+        "profile_pic": "/src/assets/images/dp1.jpeg"
+      },
+      "image": "/src/assets/images/story1.jpg"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "sarah",
+        "profile_pic": "/src/assets/images/dp2.jpeg"
+      },
+      "image": "/src/assets/images/story2.jpg"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "max",
+        "profile_pic": "/src/assets/images/dp3.jpeg"
+      },
+      "image": "/src/assets/images/story3.jpg"
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": 104,
+        "username": "alice",
+        "profile_pic": "/src/assets/images/dp4.jpeg"
+      },
+      "image": "/src/assets/images/story4.jpg"
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": 105,
+        "username": "adam",
+        "profile_pic": "/src/assets/images/dp5.jpeg"
+      },
+      "image": "/src/assets/images/story5.jpg"
+    },
+    {
+      "id": "6",
+      "user": {
+        "id": 106,
+        "username": "emma",
+        "profile_pic": "/src/assets/images/dp6.jpeg"
+      },
+      "image": "/src/assets/images/story6.jpg"
+    },
+    {
+      "id": "7",
+      "user": {
+        "id": 107,
+        "username": "jack",
+        "profile_pic": "/src/assets/images/dp7.jpeg"
+      },
+      "image": "/src/assets/images/story7.jpg"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "101",
+      "username": "lucas_captures",
+      "profile_pic": "/src/assets/images/dp1.jpeg"
+    },
+    {
+      "id": "102",
+      "username": "sarah_dreams",
+      "profile_pic": "/src/assets/images/dp2.jpeg"
+    },
+    {
+      "id": "103",
+      "username": "travel_with_max",
+      "profile_pic": "/src/assets/images/dp3.jpeg"
+    },
+    {
+      "id": "104",
+      "username": "alice_wonder",
+      "profile_pic": "/src/assets/images/dp4.jpeg"
+    },
+    {
+      "id": "105",
+      "username": "adam_on_air",
+      "profile_pic": "/src/assets/images/dp5.jpeg"
+    },
+    {
+      "id": "106",
+      "username": "emma_vlogs",
+      "profile_pic": "/src/assets/images/dp6.jpeg"
+    },
+    {
+      "id": "107",
+      "username": "fit_with_jack",
+      "profile_pic": "/src/assets/images/dp7.jpeg"
+    }
+  ],
+  "highlight": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "Home",
+        "profile_pic": "/src/assets/images/hlight1.webp"
+      },
+      "image": "/src/assets/images/hlight1.webp"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "Car",
+        "profile_pic": "/src/assets/images/hlight2.jpeg"
+      },
+      "image": "/src/assets/images/hlight2.jpeg"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "Dog",
+        "profile_pic": "/src/assets/images/hlight3.jpeg"
+      },
+      "image": "/src/assets/images/hlight3.jpeg"
+    }
+  ],
+  "followers": [
+    {
+      "id": "101",
+      "username": "lucas_captures",
+      "profile_pic": "/src/assets/images/dp1.jpeg"
+    },
+    {
+      "id": "102",
+      "username": "sarah_dreams",
+      "profile_pic": "/src/assets/images/dp2.jpeg"
+    },
+    {
+      "id": "103",
+      "username": "travel_with_max",
+      "profile_pic": "/src/assets/images/dp3.jpeg"
+    },
+    {
+      "id": "102",
+      "username": "sarah_dreams",
+      "profile_pic": "/src/assets/images/dp2.jpeg"
+    },
+    {
+      "id": "107",
+      "username": "fit_with_jack",
+      "profile_pic": "/src/assets/images/dp7.jpeg"
+    },
+    {
+      "id": "101",
+      "username": "lucas_captures",
+      "profile_pic": "/src/assets/images/dp1.jpeg"
+    },
+    {
+      "id": "102",
+      "username": "sarah_dreams",
+      "profile_pic": "/src/assets/images/dp2.jpeg"
+    },
+    {
+      "id": "101",
+      "username": "lucas_captures",
+      "profile_pic": "/src/assets/images/dp1.jpeg"
+    },
+    {
+      "id": "102",
+      "username": "sarah_dreams",
+      "profile_pic": "/src/assets/images/dp2.jpeg"
+    },
+    {
+      "id": "104",
+      "username": "alice_wonder",
+      "profile_pic": "/src/assets/images/dp4.jpeg"
+    }
+  ]
+}
