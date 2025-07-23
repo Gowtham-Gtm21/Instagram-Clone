@@ -1,0 +1,24 @@
+/* src/Static/PageNotFound.css */
+
+.not-found-container {
+    height: 100vh;
+    background-color: #fafafa;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.not-found-container img {
+    width: 70px;
+}
+
+.not-found-container h2 {
+    font-size: 4rem;
+}
+
+
+.not-found-img {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}

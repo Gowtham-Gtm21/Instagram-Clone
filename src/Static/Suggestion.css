@@ -1,0 +1,102 @@
+.suggestion-box {
+    width: 100%;
+    max-width: 320px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 0.95rem;
+    padding: 20px 0;
+}
+
+/* Current User */
+.suggestion-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 12px;
+}
+
+.user-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.username {
+    font-size: 14px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.nickname {
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.switch-link {
+    color: #4352D6;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Header */
+.suggestion-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.muted-text {
+    color: #8e8e8e;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.see-all {
+    font-size: 13px;
+    font-weight: 600;
+    color: #262626;
+    cursor: pointer;
+}
+
+/* Suggestions List */
+.suggestion-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.suggestion-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.follow-text {
+    color: #4352D6;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.follow-text.following {
+    color: #5e5e5e;
+}
+
+/* Subtext */
+.extra-small {
+    font-size: 11px;
+    color: gray;
+}

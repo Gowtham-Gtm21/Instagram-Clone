@@ -1,0 +1,85 @@
+.ig-sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border-right: 1px solid #dbdbdb;
+    z-index: 1000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ig-logo-full {
+    height: 40px;
+}
+
+.ig-logo-small {
+    display: none;
+}
+
+.ig-nav-item {
+    text-decoration: none;
+    color: #262626;
+    padding: 12px 14px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.ig-nav-item:hover {
+    background-color: #f2f2f2;
+    color: #000;
+}
+
+.ig-nav-item.active {
+    background-color: #efefef;
+    font-weight: 600;
+}
+
+.sidebar-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.profile-circle {
+    border-radius: 50%;
+}
+
+.ig-nav-item span {
+    white-space: nowrap;
+}
+
+@media (max-width: 1100px) {
+    .ig-sidebar {
+        width: 230px;
+    }
+}
+
+@media (max-width: 850px) {
+    .ig-sidebar {
+        width: 180px;
+    }
+}
+
+@media (max-width: 500px) {
+    .ig-sidebar {
+        width: 70px;
+    }
+
+    .ig-logo-full {
+        display: none;
+    }
+
+    .ig-logo-small {
+        display: block;
+        height: 30px;
+        margin: 30px auto;
+    }
+
+    .ig-nav-item span {
+        display: none;
+    }
+
+}

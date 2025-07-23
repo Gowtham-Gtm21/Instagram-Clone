@@ -1,0 +1,160 @@
+/* src/Static/ViewStory.css */
+
+.story-viewer {
+    position: fixed;
+    inset: 0;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    color: #fff;
+}
+
+/* Logo & Close */
+.story-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 110px;
+    z-index: 10;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+/* Arrows */
+.arrow {
+    font-size: 2.5rem;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    z-index: 1000;
+    user-select: none;
+}
+
+.arrow.left {
+    right: calc(50% + 220px);
+}
+
+.arrow.right {
+    left: calc(50% + 220px);
+}
+
+/* Story Box */
+.story-content {
+    width: 360px;
+    height: 640px;
+    background: #111;
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Image Wrapper */
+.story-image-wrapper {
+    position: relative;
+    flex: 1;
+    width: 100%;
+}
+
+.story-view-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-dark-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent 30%, transparent 70%, rgba(0, 0, 0, 0.6));
+    z-index: 1;
+}
+
+/* Header */
+.story-header {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.story-header img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    object-fit: cover;
+}
+
+.story-time {
+    font-size: 16px;
+    color: #c6c5c5;
+}
+
+/* Three dots menu */
+.menu-icon {
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Reply bar */
+.story-reply {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 8px 12px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.story-reply input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 10px;
+    outline: none;
+}
+
+.story-reply input::placeholder {
+    color: #d9d7d7;
+}
+
+.story-reply i {
+    margin-left: 12px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
